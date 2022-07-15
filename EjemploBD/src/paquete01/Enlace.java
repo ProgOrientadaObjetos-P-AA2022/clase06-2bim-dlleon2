@@ -45,7 +45,7 @@ public class Enlace {
     public void insertarCiudad(Ciudad ciudad) {  
   
         try{  
-            establecerConexion();
+            establecerConexion(); 
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO Ciudad (nombre, poblacion) "
                     + "values ('%s', %d)", ciudad.obtenerNombre(), 

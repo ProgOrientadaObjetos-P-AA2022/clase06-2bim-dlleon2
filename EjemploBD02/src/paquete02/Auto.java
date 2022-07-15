@@ -28,6 +28,8 @@ public class Auto {
     public double obtenerValorMatricula(){
         return valorMatricula;
     }
-    
-    
+    @Override
+    public String toString{
+    -+0...............
+}
 }
